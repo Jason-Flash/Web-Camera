@@ -15,6 +15,7 @@
 ##程序编写
 ###Shell脚本编写
 由于RPi Camera可以用Shell直接调用，这里我使用Shell来编写调用摄像头并保存图片的程序。  
+
 代码如下：  
 trap "echo 'stop';exit 0" SIGINT SIGKILL  
 while :  
