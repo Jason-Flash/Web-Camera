@@ -20,7 +20,7 @@
 trap "echo 'stop';exit 0" SIGINT SIGKILL  
 while :  
 do  
-    raspistill -o /var/www/html/webMonitor.jpg -t 1000 -w 256 -h 192  
+        raspistill -o /var/www/html/webMonitor.jpg -t 1000 -w 256 -h 192  
 done  
 
 第一行代码用于退出循环，当按下Ctrl+C时，程序便会终止退出。  
