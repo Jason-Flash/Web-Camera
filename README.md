@@ -43,4 +43,5 @@ done
 (3)将树莓派的内网地址填入并设置端口号(默认为80)。  
 ![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router3.jpg)  
 (4)若端口号为80，直接在地址栏输入路由器的ip地址即可访问。若端口号为其他，如9999，则输入ip:9999访问。  
+![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router4.jpg)  
 
