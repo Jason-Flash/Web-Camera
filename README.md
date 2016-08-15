@@ -37,9 +37,9 @@ done
 ###路由器端口映射
 为了使所拍照片在外网也可以访问，我们需要使用路由器进行端口映射（以TP-LINK路由器为例）。  
 (1)地址栏输入192.168.1.1进入路由器管理界面。  
-![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router1.jpg)
+![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router1.jpg)  
 (2)进入应用管理中的虚拟服务器。  
-![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router2.jpg)
+![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router2.jpg)  
 (3)将树莓派的内网地址填入并设置端口号(默认为80)。  
 ![router1](https://github.com/Jason-Flash/Web-Camera/blob/master/image/router3.jpg)  
 (4)若端口号为80，直接输入路由器的ip地址即可访问。若端口号为其他，如9999，则输入ip:9999即可访问。  
