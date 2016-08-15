@@ -12,6 +12,10 @@
 
 ###接线方法
 
+###Apache服务器安装
+在命令行下输入以下命令安装：
+$sudo apt-get install apache2
+
 ###程序编写
 ####Shell脚本编写
 由于RPi Camera可以用Shell直接调用，这里我使用Shell来编写调用摄像头并保存图片的程序。  
